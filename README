@@ -1,0 +1,21 @@
+Will Pickard
+Project 4
+Eileen Kramer
+
+The project, completely completed, was first turned in on 05/05/2014 before midnight.
+I was told that we had til 3PM today, 05/06/2014 to submit them, so I went back and added some things for fun.
+
+ADDED:
+
+1) Added an array of Entity sets to act as state memory for each step in the simulation
+2) Added a small menu that allows the user to select between 3 options at the simulations completion
+	0: deallocate all memory allocated on heap and exit
+	1: Get the difference in each entity from step 1 to step 100
+	2: Print the state at a specific step, state being the state of each entity in the simulation's entity step
+3) In order to manage memory, I had to create a cloning method for Seller, Buyer, and Retailer. This is simply called clone. It is virtual and allows me to 
+create duplicate an object's state and put it on the heap. These duplicates are also deallocated when the user selects 0 in the menu
+
+
+Please keep in mind that I went above and beyond just for the sake of it. I know this is being turned in slightly late, but I did already turn in a complete Prject4. I hope no points will be taken off because I decided to have a little fun and practice copy constructors with polymorphism
+
+
